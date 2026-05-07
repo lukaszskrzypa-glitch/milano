@@ -332,25 +332,11 @@ a {
 .menu-intro {
   margin-bottom:24px}
 
-.cats a {
-    flex: 0 0 auto;
-
-    white-space: nowrap;
-    text-decoration: none;
-    background: #fff;
-    border: 1px solid var(--line);
-    border-radius: 999px;
-    padding: 10px 15px;
-    font-weight: 900;
-    font-size: 12px;
-    text-transform: uppercase;
-    letter-spacing: .04em
-}
-
 .cats::-webkit-scrollbar {
   display:none}
 
 .cats a {
+  flex: 0 0 auto;
   white-space:nowrap;
   text-decoration:none;
   background:#fff;
