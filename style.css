@@ -481,7 +481,15 @@ a {
 .menu-intro {
   margin-bottom: 24px;
 }
+.menu-subtitle {
+  margin: 28px 0 10px;
 
+  color: var(--green);
+
+  font-family: var(--serif);
+  font-size: 28px;
+  font-weight: 900;
+}
 .cats {
   position: sticky;
   top: 92px;
