@@ -451,7 +451,7 @@ a {
 
 .menu-subtitle {
   margin: 32px 0 10px;
-  color: var(--green);
+  color: var(--accent-blue);
   font-family: var(--serif);
   font-size: 28px;
   font-weight: 900;
