@@ -3,7 +3,7 @@
   --paper: #fffdf7;
   --ink: #20201e;
   --muted: #736c62;
-  --green: #a5bd05;
+  --green: #41A7D6;
   --line: #ddd4c5;
   --dark: #151513;
   --shadow: 0 22px 60px rgba(32, 32, 30, .16);
@@ -447,7 +447,7 @@ a {
 
 .menu-subtitle {
   margin: 32px 0 10px;
-  color: var(--blue);
+  color: var(--green);
   font-family: var(--serif);
   font-size: 28px;
   font-weight: 900;
