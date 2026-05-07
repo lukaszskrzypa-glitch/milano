@@ -504,4 +504,37 @@ a {
 .brand-small {
   display:none}
 }
+.footer-socials {
+    display: flex;
+    justify-content: center;
+    gap: 14px;
 
+    margin-top: 16px;
+}
+
+.footer-socials a {
+    width: 42px;
+    height: 42px;
+
+    border-radius: 999px;
+
+    background: #a8c400;
+    color: #111;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+
+    transition: 0.3s ease;
+}
+
+.footer-socials a:hover {
+    transform: translateY(-2px);
+    background: #b7d600;
+}
+
+.footer-socials i {
+    font-size: 18px;
+}
