@@ -96,7 +96,7 @@
 
         <a
           class="btn green"
-          href="https://milano-krasnystaw.eatbu.com/?fbclid=IwY2xjawRpL-xleHRuA2FlbQIxMABicmlkETE3TVluTTk1blNuYlJ5SU5Jc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHvOH_XnZfKXkaLMt3RwU9rclR0ZMNhBEim_z722fgSw_w3JoMxm7E2-78xBh_aem_kXmN86xfHRE3eNKKl41hdA&lang=pl"
+          href="https://milano-krasnystaw.eatbu.com/?lang=pl"
           target="_blank"
           rel="noopener"
         >
@@ -122,6 +122,21 @@
         </div>
       </section>
 
+      <section
+        class="menu"
+        id="menu"
+      >
+        <div class="wrap">
+          <div class="menu-intro">
+            <h2 class="title">
+              Pełne menu
+            </h2>
+
+            <p>
+              Pełna karta Milano Krasnystaw — pizza, makarony, burgery, sałatki, dania, desery, napoje i alkohole. Wybierz kategorię, żeby szybko przejść do interesującej części menu.
+            </p>
+          </div>
+
           <nav class="cats">
             <a href="#pizza">Pizza</a>
             <a href="#makarony">Makarony</a>
@@ -132,7 +147,7 @@
             <a href="#desery">Desery</a>
             <a href="#dodatki---sosy">Dodatki / sosy</a>
             <a href="#napoje">Napoje</a>
-            <a href="#Alkohol">Alkohol</a>
+            <a href="#alkohol">Alkohol</a>
           </nav>
 
           <section
@@ -725,7 +740,11 @@
             class="menu-section"
             id="napoje"
           >
-            <h3>Napoje zimne</h3>
+            <h3>Napoje</h3>
+
+            <h4 class="menu-subtitle">
+              Napoje zimne
+            </h4>
 
             <div class="items">
               <article class="menu-item">
@@ -795,12 +814,10 @@
                 </div>
               </article>
             </div>
-          </section>
 
-          <section
-            class="menu-section"
-          >
-            <h3>Napoje gorące</h3>
+            <h4 class="menu-subtitle">
+              Napoje gorące
+            </h4>
 
             <div class="items">
               <article class="menu-item">
@@ -849,9 +866,13 @@
 
           <section
             class="menu-section"
-            id="Alkohol"
+            id="alkohol"
           >
-            <h3>Wina</h3>
+            <h3>Alkohol</h3>
+
+            <h4 class="menu-subtitle">
+              Wina
+            </h4>
 
             <div class="items">
               <article class="menu-item">
@@ -886,12 +907,10 @@
                 <strong>19/130 PLN</strong>
               </article>
             </div>
-          </section>
 
-          <section
-            class="menu-section"
-          >
-            <h3>Drinki</h3>
+            <h4 class="menu-subtitle">
+              Drinki
+            </h4>
 
             <div class="items">
               <article class="menu-item">
@@ -966,12 +985,10 @@
                 <strong>30 PLN</strong>
               </article>
             </div>
-          </section>
 
-          <section
-            class="menu-section"
-          >
-            <h3>Piwa</h3>
+            <h4 class="menu-subtitle">
+              Piwa
+            </h4>
 
             <div class="items">
               <article class="menu-item">
@@ -1058,12 +1075,10 @@
                 <strong>13 PLN</strong>
               </article>
             </div>
-          </section>
 
-          <section
-            class="menu-section"
-          >
-            <h3>Piwa bezalkoholowe</h3>
+            <h4 class="menu-subtitle">
+              Piwa bezalkoholowe
+            </h4>
 
             <div class="items">
               <article class="menu-item">
@@ -1101,12 +1116,10 @@
                 <strong>11 PLN</strong>
               </article>
             </div>
-          </section>
 
-          <section
-            class="menu-section"
-          >
-            <h3>Alkohole mocne</h3>
+            <h4 class="menu-subtitle">
+              Alkohole mocne
+            </h4>
 
             <div class="items">
               <article class="menu-item">
@@ -1148,7 +1161,7 @@
 
     <a
       class="sticky-order"
-      href="https://milano-krasnystaw.eatbu.com/?fbclid=IwY2xjawRpL-xleHRuA2FlbQIxMABicmlkETE3TVluTTk1blNuYlJ5SU5Jc3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHvOH_XnZfKXkaLMt3RwU9rclR0ZMNhBEim_z722fgSw_w3JoMxm7E2-78xBh_aem_kXmN86xfHRE3eNKKl41hdA&lang=pl"
+      href="https://milano-krasnystaw.eatbu.com/?lang=pl"
       target="_blank"
       rel="noopener"
     >
@@ -1156,13 +1169,15 @@
         Zamów online
       </span>
     </a>
-<a
-  class="back-to-top"
-  href="#menu"
-  aria-label="Wróć na górę menu"
->
-  <i class="fa-solid fa-arrow-up"></i>
-</a>
+
+    <a
+      class="back-to-top"
+      href="#menu"
+      aria-label="Wróć na górę menu"
+    >
+      <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
     <footer>
       <p>
         Milano Krasnystaw • Graniczna 15A • 534 013 399
@@ -1188,16 +1203,17 @@
         </a>
       </div>
     </footer>
-    <script>
-  const backToTop = document.querySelector('.back-to-top');
 
-  window.addEventListener('scroll', function () {
-    if (window.scrollY > 500) {
-      backToTop.classList.add('show');
-    } else {
-      backToTop.classList.remove('show');
-    }
-  });
-</script>
+    <script>
+      const backToTop = document.querySelector('.back-to-top');
+
+      window.addEventListener('scroll', function () {
+        if (window.scrollY > 500) {
+          backToTop.classList.add('show');
+        } else {
+          backToTop.classList.remove('show');
+        }
+      });
+    </script>
   </body>
 </html>
