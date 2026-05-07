@@ -1176,7 +1176,13 @@
         Zamów online
       </span>
     </a>
-
+<a
+  class="back-to-top"
+  href="#menu"
+  aria-label="Wróć na górę menu"
+>
+  <i class="fa-solid fa-arrow-up"></i>
+</a>
     <footer>
       <p>
         Milano Krasnystaw • Graniczna 15A • 534 013 399
@@ -1202,5 +1208,16 @@
         </a>
       </div>
     </footer>
+    <script>
+  const backToTop = document.querySelector('.back-to-top');
+
+  window.addEventListener('scroll', function () {
+    if (window.scrollY > 500) {
+      backToTop.classList.add('show');
+    } else {
+      backToTop.classList.remove('show');
+    }
+  });
+</script>
   </body>
 </html>
