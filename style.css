@@ -366,7 +366,7 @@ a {
 }
 
 .menu {
-  padding: 70px 0 96px;
+  padding: 25px 0 96px;
 }
 
 .menu-intro {
@@ -717,4 +717,73 @@ footer p {
     left: 14px;
     bottom: 14px;
   }
+  @media (max-width: 560px) {
+  .nav {
+    position: relative;
+  }
+
+  .navin {
+    min-height: 74px;
+    padding: 8px 0;
+  }
+
+  .brand-logo {
+    width: 70px;
+    height: 52px;
+  }
+
+  .brand-name {
+    font-size: 18px;
+    letter-spacing: .05em;
+  }
+
+  .brand-small {
+    display: none;
+  }
+
+  .navin > .btn.green {
+    width: auto;
+    padding: 12px 18px;
+    font-size: 14px;
+  }
+
+  .hero {
+    min-height: auto;
+  }
+
+  .hero-content {
+    padding: 48px 0 90px;
+  }
+
+  .eyebrow {
+    font-size: 10px;
+    letter-spacing: .16em;
+  }
+
+  .h1 {
+    font-size: 48px;
+    line-height: .92;
+    max-width: 94vw;
+  }
+
+  .lead {
+    font-size: 17px;
+    line-height: 1.55;
+    max-width: 92vw;
+  }
+
+  .actions {
+    gap: 10px;
+  }
+
+  .actions .btn {
+    width: 100%;
+    font-size: 15px;
+    padding: 14px 18px;
+  }
+
+  .sticky-order {
+    display: none;
+  }
+}
 }
