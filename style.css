@@ -87,18 +87,18 @@ a {
 
 .socials {
     display: flex;
-    gap: 14px;
     align-items: center;
+    gap: 12px;
 }
 
 .socials a {
-    width: 42px;
-    height: 42px;
+    width: 54px;
+    height: 54px;
 
-    border-radius: 50%;
+    border-radius: 999px;
 
-    background: #111;
-    color: #fff;
+    background: #a8c400;
+    color: #111;
 
     display: flex;
     align-items: center;
@@ -107,15 +107,17 @@ a {
     text-decoration: none;
 
     transition: 0.3s ease;
+
+    box-shadow: 0 8px 24px rgba(168,196,0,.25);
 }
 
 .socials a:hover {
-    transform: translateY(-2px);
-    background: #9db300;
+    transform: translateY(-2px) scale(1.05);
+    background: #b7d600;
 }
 
 .socials i {
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .social-link {
