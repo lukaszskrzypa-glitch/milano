@@ -767,8 +767,10 @@ footer p {
   }
   @media (max-width: 560px) {
   .nav {
-    position: relative;
-  }
+  position: sticky;
+  top: 0;
+  z-index: 999;
+}
 
   .navin {
     min-height: 74px;
